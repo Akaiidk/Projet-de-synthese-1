@@ -33,6 +33,9 @@ Le flux de traitement suit un cycle précis :
 3.  **Visualisation** : 
     * Les segments originaux sont tracés en **bleu**.
     * Les points d'intersection détectés sont marqués par des cercles **rouges**.
+## 📷 Aperçu
+<img width="795" height="601" alt="Capture d’écran 2026-01-11 à 03 34 02" src="https://github.com/user-attachments/assets/80e7f3a1-330c-4d3e-afc3-f9b39633bb9c" />
+<img width="798" height="600" alt="Capture d’écran 2026-01-11 à 03 34 30" src="https://github.com/user-attachments/assets/9c47ec00-d034-41e4-b25a-50ee145ac029" />
 
 ## 📁 Structure du Projet
 * `/src` : Code source C (logique métier, algorithmes, structures de données).
