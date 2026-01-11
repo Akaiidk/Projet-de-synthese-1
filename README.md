@@ -11,6 +11,16 @@ Le moteur de calcul propose deux approches distinctes pour résoudre le problèm
 * **Algorithme Naïf (All-Pairs)** : Une méthode de force brute qui compare chaque segment à tous les autres. Sa complexité est de $O(n^2)$.
 * **Algorithme de Bentley-Ottmann** : Une méthode avancée de **balayage de ligne** (sweep-line). Elle est beaucoup plus performante pour les grands ensembles de données avec une complexité de $O((n+k) \log n)$, où $k$ est le nombre d'intersections.
 
+## 📊 Étude Expérimentale et Complexité
+Le projet inclut une suite de scripts Bash conçus pour automatiser l'analyse de performance et valider les complexités théoriques ($O(n^2)$ vs $O(n \log n)$) :
+
+* **`generate_instance.sh`** : Génère des jeux de données aléatoires (instances) en évitant les cas dégénérés (segments verticaux ou points superposés).
+* **`generate_collection.sh`** : Produit massivement des échantillons de tailles variées (de 10 à 10 000 segments) pour tester les limites des algorithmes.
+* **`run_experiments.sh`** : Véritable laboratoire de test qui exécute les algorithmes sur toute une collection, chronomètre les temps d'exécution et exporte les données pour tracer des courbes de performance.
+
+
+
+Ces outils permettent de visualiser concrètement le "point de bascule" où l'algorithme de Bentley-Ottmann devient plus efficace que la méthode naïve.
 
 
 ## 🛠️ Caractéristiques Techniques
