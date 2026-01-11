@@ -51,7 +51,7 @@ Le flux de traitement suit un cycle précis :
 * `/src` : Code source C (logique métier, algorithmes, structures de données).
 * `/include` : Fichiers d'en-tête (.h).
 * `/java/application` : Interface utilisateur JavaFX et pont JNI.
-* * `/script` : Réalisation d'étude de performance sur les algorithmes employés
+*  `/script` : Réalisation d'étude de performance sur les algorithmes employés
 * `/data` : Fichiers d'exemples et de résultats.
 
 ---
